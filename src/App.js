@@ -47,7 +47,7 @@ function App() {
         <div>
           {!login && (
             <FacebookLogin
-              appId="2227338407463775"
+              appId="your_app_id_from facebook_developers"
               autoLoad={true}
               fields="name,email,picture"
               scope="public_profile"
